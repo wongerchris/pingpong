@@ -9,21 +9,21 @@ export default class Paddle{
       this.maxHeight = height;
    
       document.addEventListener('keydown', event => {
-         //console.log(event.keyCode)
+         
       switch (event.keyCode) {
          case control.up:
             this.y = Math.max(0,this.y -this.speed);
-            //console.log('up');
+            
             break;
          case control.down:
             this.y = Math.min(this.maxHeight - this.height, this.y + this.speed);
-            //console.log('down');
+            
             break;
         }
     });
    }
 
-   render(ctx) { // What is ctx? Where does it come from?
+   render(ctx) { 
       ctx.fillRect(
          this.x, this.y,
          this.width, this.height
