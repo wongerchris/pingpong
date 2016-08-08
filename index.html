@@ -7,8 +7,18 @@
    </head>
 
    <body>
-       <h1>Pong Wars</h1>
+      <audio id="pongSound1">
+        <source src="./sounds/pong-01.wav" type="audio/wav">
+      </audio>
+      <audio id="pongSound2">
+        <source src="./sounds/pong-02.wav" type="audio/wav">
+      </audio>
+      <audio id="pongSound3">
+        <source src=".sounds/pong-03.wav" type="audio/wav">
+      </audio>
 
+       <h1>Pong Wars</h1>
+      
        <!-- render game here -->
        <canvas id="game"></canvas>
 
@@ -16,6 +26,6 @@
            <span>P1</span>
            <span>P2</span>
        </div>
-       <script type="text/javascript" src="bundle.js"></script>
+       <script type="text/javascript" src="build/bundle.js"></script>
    </body>
 </html>
