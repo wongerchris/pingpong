@@ -5,6 +5,7 @@
 .Spotlight-V100
 .Trashes
 ehthumbs.db
+bundle.js
 *[Tt]humbs.db
 *.Trashes
 # Ignore npm packages
