@@ -73,7 +73,7 @@ h1 {
 }
 #game {
    display: block;
-   height: 500px;
+   height: 400px;
    margin: 20px auto;
    width: 800px;
    background-color:#006600;
@@ -87,4 +87,15 @@ h1 {
    width: 800px;
    color: #fff;
    font-size: 30px;
+}
+
+.controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.controls div p{
+  text-decoration: underline;
+  margin-bottom: 10px;
 }
